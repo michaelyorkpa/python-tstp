@@ -32,7 +32,7 @@ def hangman(word):
         print("\n".join(stages[0: e]))
         if "_" not in board:
             print("You win!")
-            print(" ".join(board))
+            print("The word is: "+" ".join(board))
             win=True
             break
     if not win:
