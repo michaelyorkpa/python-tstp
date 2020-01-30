@@ -24,6 +24,7 @@ def seq_search(number_list):
 start_time=time.time()
 list_of_num=randomlist()
 print("It took %s seconds to compile random number list" % (time.time()-start_time))
+print(list_of_num)
 
 start_time=time.time()
 seq_result=seq_search(list_of_num)
