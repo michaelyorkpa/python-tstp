@@ -9,4 +9,4 @@ def randomlist(size_of_list,max_value):
         num_list.append(rand_sel)
     print(num_list)
 
-randomlist(20000,100000)
+randomlist(40000,100000)
